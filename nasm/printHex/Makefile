@@ -3,7 +3,7 @@ CFLAGS=-f elf64 -F dwarf
 LD=ld
 LDFLAGS=
 SOURCES=main.asm
-EXECUTABLE=printHeX
+EXECUTABLE=printHex
 OBJECTS=$(SOURCES:.asm=.o)
 
 all: $(SOURCES) $(EXECUTABLE)
