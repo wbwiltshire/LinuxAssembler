@@ -62,3 +62,8 @@
 	mov		eax, [rbx]				; 32 bit
 	lea		rbx, [oneq]				; load effective address (not the value) to rbx 
 	mov		rax, [rbx]				; 64 bit
+	
+	; Zero extends
+	movzx   rax, BYTE [oneb]		; loads 1 byte and zero extends
+	movzx   rax, WORD [onew]		; loads 2 bytes and zero extends
+	mov     eax, DWORD [oned]		; loads 4 bytes and zero extends

@@ -8,7 +8,7 @@ Linux Assemble code (X86_64 - GAS) - Cheat Sheet
 | 16 bit        | ax          | cx      | dx    | bx    | sp    | bp         | si     | di
 | 32 bit        | eax         | ecx     | edx   | ebx   | esp   | ebp        | esi    | edi
 | 64 bit        | rax         | rcx     | rdx   | rbx   | rsp   | rbp        | rsi    | rdi
-| 64 bit only   | r7 - r16    |||||||||
+| 64 bit only   | r8 - r16    |||||||||
 
 ### Storage section
 ```

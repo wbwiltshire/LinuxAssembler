@@ -17,3 +17,6 @@ $(EXECUTABLE): $(OBJECTS)
 clean:
 	rm -f $(EXECUTABLE)
 	rm -f *.o
+
+test:
+	./reference stringstuff.inc
