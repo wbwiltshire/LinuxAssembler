@@ -13,6 +13,7 @@ list 100,120
 ### List lines in a function
 
 list main.s:1 
+
 list toHex.s:1, 50
 
 ### Breakpoints
@@ -28,6 +29,7 @@ delete 50
 ### Start debugging using a command line argument
 
 run infile.txt
+
 cont
 
 ### Show/change command line arguments
@@ -55,11 +57,13 @@ q
 ### Display register information (must be running)
 
 info registers
+
 i r rax
 
 ### Set register value
 
 set ($rax)=0x0
+
 set ($al)=0
 
 ### Display a single register (must be running)

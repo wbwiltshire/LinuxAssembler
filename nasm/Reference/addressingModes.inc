@@ -66,4 +66,4 @@
 	; Zero extends
 	movzx   rax, BYTE [oneb]		; loads 1 byte and zero extends
 	movzx   rax, WORD [onew]		; loads 2 bytes and zero extends
-	mov     eax, DWORD [oned]		; loads 4 bytes and zero extends
+	mov     eax, DWORD [oned]		; loads 4 bytes and zero extends automatically
